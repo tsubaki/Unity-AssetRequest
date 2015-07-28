@@ -1,6 +1,11 @@
 /content/18684
-Assets/AssetData\Fonts\PressStart2P-Regular\PressStart2P-Regular.ttf,e9e024772e71e88418fbf13dd2b8de27
-Assets/AssetData\Sprites\GrassSprite.png,3bb40c4bb20b72940ba2dd57ae30f88c
-Assets/AssetData\Sprites\RetroBullet.png,fb16cc86978e6464d9ecc8802812674a
-Assets/AssetData\Sprites\RetroSpaceship.png,07fa4a9616a73f34785703310e3f094b
-Assets/AssetData\Sprites\SkySprite.png,dede5f4548992dd4ba1c9840a451ed31
+Assets/2DSample\Example Games\2D Scrolling Shooter\Animations\Enemy\Normal.anim,dc39fb6ffa2fb4e74972c56d6dea13db
+Assets/2DSample\Example Games\2D Scrolling Shooter\Animations\Explosion\Explode.anim,9d3d0ff31ecf74095b8a4237582b173d
+Assets/2DSample\Example Games\2D Scrolling Shooter\Animations\Player\Normal.anim,e7801cfbc52504c2bb846146ee902d87
+Assets/2DSample\Example Games\2D Scrolling Shooter\Sprites\Explosion\RetroExplosion.png,39797370c93ad4f58ad6959567c3406c
+Assets/2DSample\Example Games\2D Scrolling Shooter\Sprites\Spaceship\RetroSpaceship.png,bf3bdd2147b394bc2b771f2556f0b49d
+Assets/2DSample\Example Games\Hat Trick - The Catch Game\Sprites\GrassSprite.png,7b4ce5a7ee3904ff1ae190d7736eeeaa
+Assets/2DSample\Sprites\RetroBullet.png,fb16cc86978e6464d9ecc8802812674a
+Assets/2DSample\Sprites\RetroExplosion.png,907a19a0cc99bf04288d3b0c0d6afcfb
+Assets/2DSample\Sprites\RetroSpaceship.png,07fa4a9616a73f34785703310e3f094b
+Assets/2DSample\Sprites\SkySprite.png,dede5f4548992dd4ba1c9840a451ed31
