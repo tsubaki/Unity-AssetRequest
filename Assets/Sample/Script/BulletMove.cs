@@ -15,4 +15,9 @@ public class BulletMove : MonoBehaviour {
 		rigidbody2d.velocity = transform.up.normalized * 8;
 		Destroy (gameObject, 3);
 	}
+
+	void OnTriggerEnter2D(Collider2D other) 
+	{
+		Destroy (gameObject);
+	}
 }
