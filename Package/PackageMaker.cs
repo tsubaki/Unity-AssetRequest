@@ -112,7 +112,7 @@ namespace AssetstorePackageImprter
 			
 			var filePaths = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories)
 				.Where(item => Path.GetExtension(item) != ".meta")
-					.Select(item => item.Replace(fullPath, "Assets"));
+					.Select(item => item.Replace(Path.AltDirectorySeparatorChar, Path.DirectorySeparatorChar).Replace(fullPath, "Assets"));
 			foreach( var filePath in filePaths ){
 				
 				var fileGuid = AssetDatabase.AssetPathToGUID(filePath);
