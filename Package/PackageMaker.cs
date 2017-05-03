@@ -226,7 +226,7 @@ namespace AssetstorePackageImprter
 		{
 			var assetlist = new List<AssetData>();
 			
-			var files = Directory.GetFiles("Assets", "ImportPackages*.imp", SearchOption.AllDirectories);
+			var files = Directory.GetFiles("RequestPackages", "ImportPackages*.imp", SearchOption.AllDirectories);
 			foreach( var file in files ){
 				var text = File.ReadAllText(file);
 				var textReader = new System.IO.StringReader(text);
