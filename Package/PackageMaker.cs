@@ -112,7 +112,7 @@ namespace AssetstorePackageImprter
 			
 			var filePaths = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories)
 				.Where(item => Path.GetExtension(item) != ".meta")
-					.Select(item => item.Replace(fullPath, "Assets"));
+					.Select(item => item.Replace(Path.AltDirectorySeparatorChar, Path.DirectorySeparatorChar).Replace(fullPath, "Assets"));
 			foreach( var filePath in filePaths ){
 				
 				var fileGuid = AssetDatabase.AssetPathToGUID(filePath);
@@ -226,7 +226,7 @@ namespace AssetstorePackageImprter
 		{
 			var assetlist = new List<AssetData>();
 			
-			var files = Directory.GetFiles("Assets", "ImportPackages*.imp", SearchOption.AllDirectories);
+			var files = Directory.GetFiles(".", "ImportPackages*.imp", SearchOption.AllDirectories);
 			foreach( var file in files ){
 				var text = File.ReadAllText(file);
 				var textReader = new System.IO.StringReader(text);
